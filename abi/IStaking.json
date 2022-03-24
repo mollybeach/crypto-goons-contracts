@@ -1,0 +1,3 @@
+[
+  "function depositsOf(address account) view returns (uint256[])"
+]

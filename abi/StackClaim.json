@@ -1,0 +1,8 @@
+[
+  "event OwnershipTransferred(address indexed previousOwner, address indexed newOwner)",
+  "function claim()",
+  "function owner() view returns (address)",
+  "function renounceOwnership()",
+  "function setPendingWithdrawals(address[] _accounts, uint256[] _amount)",
+  "function transferOwnership(address newOwner)"
+]

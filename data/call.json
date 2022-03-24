@@ -1,0 +1,32 @@
+[
+    {
+      "name": "balanceOf",
+      "strategy": {
+        "name": "contract-call",
+        "params": {
+          "address": "0x2D3F39663D43c0862589A8A24Bf05ccD44B0ac4D",
+          "symbol": "STACK",
+          "methodABI": {
+            "inputs": [
+              {
+                "internalType": "address",
+                "name": "account",
+                "type": "address"
+              }
+            ],
+            "name": "depositsOf",
+            "outputs": [
+              {
+                "internalType": "uint256[]",
+                "name": "",
+                "type": "uint256[]"
+              }
+            ],
+            "stateMutability": "view",
+            "type": "function"
+          }
+        }
+      }
+
+    }
+  ]

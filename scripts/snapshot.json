@@ -1,0 +1,27 @@
+{
+    "strategies": [
+        ["contract-call", {
+            "address": "0xaAdBA140Ae5e4c8a9eF0Cc86EA3124b446e39E46A",
+            "symbol": "MUTMEOWZ",
+            "methodABI": {
+                "inputs": [
+                    {
+                      "internalType": "address",
+                      "name": "account",
+                      "type": "address"
+                    }
+                  ],
+                  "name": "depositsOf",
+                  "outputs": [
+                    {
+                      "internalType": "uint256[]",
+                      "name": "",
+                      "type": "uint256[]"
+                    }
+                  ],
+                  "stateMutability": "view",
+                  "type": "function"
+                }
+            }]
+        ]
+}
