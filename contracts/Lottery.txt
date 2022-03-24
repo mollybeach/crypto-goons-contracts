@@ -65,7 +65,6 @@ contract Lottery {
         manager = creator;
         lotteryName = name;
     }
-
     // Let users participate by sending eth directly to contract address
     function () public payable {
         // player name will be unknown
