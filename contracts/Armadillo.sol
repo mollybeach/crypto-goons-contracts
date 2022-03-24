@@ -11,11 +11,10 @@ contract Armadillo is ERC721Enumerable, Ownable {
     using Strings for uint256;
     event Mint(address indexed sender, uint256 startWith, uint256 times);
 
-    //supply counters 
+    //supply counters
     uint256 public totalMinted;
     uint256 public totalCount = 6666;
-    //token Index tracker 
-
+    //token Index tracker
 
     uint256 public maxBatch = 10;
     uint256 public price = 50000000000000000;
@@ -26,12 +25,11 @@ contract Armadillo is ERC721Enumerable, Ownable {
     //bool
     bool private started;
 
-    //constructor args 
+    //constructor args
     constructor(string memory name_, string memory symbol_, string memory baseURI_) ERC721(name_, symbol_) {
         baseURI = baseURI_;
     }
-
-    //basic functions. 
+    //basic functions
     function _baseURI() internal view virtual override returns (string memory){
         return baseURI;
     }
@@ -39,7 +37,7 @@ contract Armadillo is ERC721Enumerable, Ownable {
         baseURI = _newURI;
     }
 
-    //erc721 
+    //erc721 functions
     function tokenURI(uint256 tokenId) public view virtual override returns (string memory) {
         require(_exists(tokenId), "ERC721Metadata: URI query for nonexistent token.");
         
