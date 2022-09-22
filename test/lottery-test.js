@@ -6,7 +6,7 @@ const { ethers } = require("hardhat");
 chai.use(require('chai-bn')(BN));
 const deployments = require('../data/deployments');
 
-/*  write it test functions for these solidity functions:
+/*  write it test functions for these solidity functio
         function startLotto() public onlyOwner returns (bool)
         function buyTickets(uint256 _qty, uint256 amount) public
         function draw() public onlyOwner returns(address)
