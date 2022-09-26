@@ -1,6 +1,7 @@
 require('dotenv').config();
 
 //yarn add hardhat-waffle 
+require("./tasks/deploy_stacked_pupz");
 require('@nomiclabs/hardhat-waffle');
 require('@nomiclabs/hardhat-etherscan');
 require('hardhat-abi-exporter');
@@ -10,7 +11,7 @@ require('hardhat-spdx-license-identifier');
 require('solidity-coverage');
 require("@nomiclabs/hardhat-waffle");
 /*
-require("./tasks/deploy_stacked_pupz");
+
 require("./tasks/deploy_stacker");
 require("./tasks/deploy_staked_pupz");
 require("./tasks/deploy_staked_stacked_pups");
