@@ -2,7 +2,7 @@ Arguments:
   /usr/local/Cellar/node/16.4.1/bin/node /usr/local/bin/yarn add @nomicslabs/hardhat-waffle
 
 PATH: 
-  /Users/yutamoxley/opt/anaconda3/bin:/Users/yutamoxley/opt/anaconda3/condabin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/share/dotnet:~/.dotnet/tools:/Library/Apple/usr/bin
+  /Users/mollybeach/opt/anaconda3/bin:/Users/mollybeach/opt/anaconda3/condabin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/share/dotnet:~/.dotnet/tools:/Library/Apple/usr/bin
 
 Yarn version: 
   1.22.11
