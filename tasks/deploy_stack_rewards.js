@@ -5,6 +5,7 @@ task('deploy-stack-rewards').setAction(async function () {
   const [deployer] = await ethers.getSigners();
 
   // approximately 6000 blocks per day
+  // factory
 
   const factory = await ethers.getContractFactory('StackPoolTwo', deployer);
   const instance = await factory.deploy(
