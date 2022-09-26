@@ -6,7 +6,7 @@ const RATE = ethers.utils
 .div(ethers.BigNumber.from('6000'));
 
 const EXPIRATION = ethers.BigNumber.from('3600000');
-
+// module exports
 module.exports = [
     deployments.stackedPupzMainnet,
     RATE,
