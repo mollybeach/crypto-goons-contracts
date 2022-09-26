@@ -6,7 +6,7 @@ write it task functions for these solidity functions:
     function setStart(bool _start) public onlyOwner returns (bool);
     function setStart() public onlyOwner
     function totalSupply() public view virtual override returns (uint256) 
-    function getLastBredCuredCat(uint256 tokenId) public view returns (uint256)
+    function getLastBredCuredCat(uint256 tokenId) public view returns (uint256
     function breedBX(uint256[] calldata _tokenIds)  public 
 */
 
