@@ -1,5 +1,5 @@
 
-# Crypto Goon
+# Crypto Goons
 
 # Basic Sample Hardhat Project
 
