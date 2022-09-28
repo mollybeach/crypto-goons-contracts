@@ -1,5 +1,5 @@
 
-# Crypto Goons
+# Crypto Goon
 
 # Basic Sample Hardhat Project
 # Solidity
