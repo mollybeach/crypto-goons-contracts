@@ -1,0 +1,19 @@
+on:
+  schedule:
+    - cron:  '*/10 * * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v2
+
+    - name: Commit changes
+      run: |
+        git config --global user.email "action@github.com"
+        git config --global user.name "GitHub Action"
+        git add .
+        git commit -m "Automatic commit by GitHub Actions [skip ci]"
+        git push origin HEAD
