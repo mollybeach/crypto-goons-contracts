@@ -14,6 +14,7 @@ jobs:
       run: |
         git config --global user.email "action@github.com"
         git config --global user.name "GitHub Action"
+        echo "." >> README.md
         git add .
-        git commit -m "Automatic commit by GitHub Actions [skip ci]"
+        git commit -m "Made changes to README"
         git push origin HEAD
