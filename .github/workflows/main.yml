@@ -1,7 +1,10 @@
 on:
   schedule:
     - cron:  '*/10 * * * *'
-
+env:
+  GIT_AUTHOR_NAME: mollybeach
+  GIT_AUTHOR_EMAIL: mollyjbeach@gmail.com
+  
 jobs:
   build:
     runs-on: ubuntu-latest
